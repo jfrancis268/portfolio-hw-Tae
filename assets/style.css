@@ -9,7 +9,7 @@ body {
     margin: 0%;
     padding: 0%;
 }
-
+/*/
 /* added font-style, color and padding to the header*/
 .header {
     padding: 20px;
@@ -192,23 +192,3 @@ footer li {
 .footer h1 {
     font-size: 50px;
 }
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
