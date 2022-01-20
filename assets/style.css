@@ -38,7 +38,7 @@ body {
 
 .header nav ul {
     list-style-type: none;
-}
+} /*/
 /*added a background color to my name in the header*/
 #name h1 {
     color: rgb(255, 255, 255);
