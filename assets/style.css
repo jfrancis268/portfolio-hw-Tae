@@ -166,7 +166,7 @@ footer li {
     height: 100px;
     transition: .5s ease;
     backface-visibility: hidden;
-}/*/
+}
 /*added a hover effect to the images*/
 .container .image:hover  {
   opacity: 0.3;
