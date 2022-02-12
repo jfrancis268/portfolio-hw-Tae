@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- linked the css to html-->
     <link rel="stylesheet" href="assets/style.css">
-    <title>Jean-TaePortfolio</title>
+    <link rel="stylesheet" href="assets/Jean-Tae Resume Mid 2020.pdf">
+    <title>Jean-Tae Portfolio</title>
 </head>
 
 <body>
     <!-- created header with my name and a nav bar-->
-     <header class="header" id="name">
-        <h1>Jean-Taé Francis</h1> 
+    <header class="header" id="name">
+
         <nav>
+            <h1> Jean-Taé Francis</h1>
             <!--added nav bar options with a hyperlink to link them to thier respective sections-->
             <ul>
                 <li>
@@ -26,84 +29,92 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#">Resume</a>
+                    <a href="#" onclick="window.open('assets/Jean-Tae Resume Mid 2020.pdf', '_blank'); return false;">Resume</a>
                 </li>
-
             </ul>
-      </nav>
+        </nav>
     </header>
 
-    <!-- added an image with alternate text--> 
-    <figure class="ima">
+    <!-- added an image with alternate text-->
+    <div class="ima">
         <img src="./assets/images/pexels-dids-3587343.jpg" alt="painting by 'Dids'">
         <!-- Added a intro under the nav bar on top of the header art-->
         <div class="bottom-right">Welcome to My Page!</div>
-    </figure>
+    </div>
 
     <!-- added a section for the about me area with a paragragh-->
     <!-- linked the about me header and paragraph to the css file and also stylized it-->
     <section class="titles">
-        <br>
-        <section id="about-me" style="width: 100%;"></section>
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores dolor cumque accusantium porro enim minus officiis? 
-            Assumenda voluptatibus tempore, nesciunt enim qui facere laborum consectetur error? 
-            Ea, esse facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Eos ex cumque et cum porro nostrum ad adipisci sapiente saepe, eveniet quos itaque, doloremque perferendis omnis qui illo, quaerat dolores repellendus.</p>
+        <!-- <section id="about-me" style="width: 100%;"></section> -->
+        <h1 class="leftContainer">About Me</h1>
+        <div class="rightContainer">
+
+            <img src="./assets/images/Hillman_JeanTae_0009.jpg"
+                alt="Man sitting with a chinese yo-yo pretending he's eating noodles" class="aboutImg"></figure>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores dolor cumque
+                accusantium
+                porro enim minus officiis?
+                Assumenda voluptatibus tempore, nesciunt enim qui facere laborum consectetur error?
+                Ea, esse facere! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eos ex cumque et cum porro nostrum ad adipisci sapiente saepe, eveniet quos itaque, doloremque
+                perferendis
+                omnis qui illo, quaerat dolores repellendus.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores dolor cumque accusantium porro enim minus officiis? 
-                Assumenda voluptatibus tempore, nesciunt enim qui facere laborum consectetur error? 
-                Ea, esse facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ex cumque et cum porro nostrum ad adipisci sapiente saepe, eveniet quos itaque, doloremque perferendis omnis qui illo, quaerat dolores repellendus.</p>
-        </section>
-    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem asperiores dolor cumque
+                accusantium
+                porro enim minus officiis?
+                Assumenda voluptatibus tempore, nesciunt enim qui facere laborum consectetur error?
+                Ea, esse facere! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eos ex cumque et cum porro nostrum ad adipisci sapiente saepe, eveniet quos itaque, doloremque
+                perferendis
+                omnis qui illo, quaerat dolores repellendus.</p>
+        </div>
+    </section>
+
     <br><br>
     <!-- added a new section for work and linked it to the css file-->
     <section class="container">
-        <section id="work"></section>
-        <h1>Work</h1>
-            <!--added a b to the first image and the last 2 images to make it easier to make changes-->
-            <img src="https://via.placeholder.com/700x400.png"
-            alt="placeholder" class="imageb">
-            <br>
-            <img src="https://via.placeholder.com/350x100.png"
-            alt="placeholder" class="image">
-            <br>
-            <img src="https://via.placeholder.com/350x100.png"
-            alt="placeholder" class="image">
-            <br>
-            <img src="https://via.placeholder.com/350x100.png"
-            alt="placeholder" class="image2">
-            <br>
-            <img src="https://via.placeholder.com/350x100.png"
-            alt="placeholder" class="image2">   
+        <!-- <section id="work"></section> -->
+        <h1 class="leftContainer">Work</h1>
+        <!--added a b to the first image and the last 2 images to make it easier to make changes-->
+        <div class="redesigned-broccoli rightContainer">
+            <a href="https://jfrancis268.github.io/redesigned-broccoli/">
+                <img src="./assets/images/Screen Shot 2022-02-08 at 12.26.05 AM.png" alt="placeholder" class="imageb">
+            </a>
+            <!-- <div class="middle">
+                <div class="text">Redesigned Broccoli</div>
+            </div> -->
+            <div class="smallImgContainer">
+                <img src="https://via.placeholder.com/350x100.png" alt="placeholder" class="image leftImg">
+                <img src="https://via.placeholder.com/350x100.png" alt="placeholder" class="image">
+            </div>
+            <div class="smallImgContainer">
+                <img src="https://via.placeholder.com/350x100.png" alt="placeholder" class="image leftImg">
+                <img src="https://via.placeholder.com/350x100.png" alt="placeholder" class="image">
+
+            </div>
+
+        </div>
+
     </section>
     <br><br>
     <footer>
-
         <!-- added a footer and linked it to the css-->
-        <section class="contact-me"></section>
+        <section id="contact-me"></section>
         <h1>Contact Me</h1>
-            <ul>
-                <li>
-                    <a href="#">929-555-0342</a>
-                </li>
-                <li>
-                    <a href="#">Jean-Tae.com</a>
-                </li>
-                <li>
-                    <a href="#">GitHub</a>
-                </li>
-                <li>
-                    <a href="#">Instagram</a>
-                </li>
-                <li>
-                    <a href="#">LinkedIn</a>
-                </li>
-            </ul>
+        <ul>
+            <li>
+                <a href="https://github.com/jfrancis268">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jean-tae-francis-b64311229/">LinkedIn</a>
+            </li>
+        </ul>
     </footer>
 
 
 </body>
+
 </html>
-<!----><!---->
+<!---->
+<!---->
