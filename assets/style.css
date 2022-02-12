@@ -55,7 +55,8 @@ h1 {
     margin-left: -2%;
     left: 2%;
     bottom: 90%;
-    padding: 2%;
+    padding: 3%;
+    border-top-right-radius: 10px;
 }
 
 .header nav ul li {
@@ -125,12 +126,13 @@ footer li {
 
 .ima div {
     width: 450px;
-    height: 60px;
+    height: 65px;
 }
 
 .ima div {
     color: rgb(255, 255, 255);
     background-color: rgb(110, 40, 67);
+    border-radius: 6px;
 }
 
 .ima div {
@@ -265,9 +267,16 @@ footer li {
 }
 
 .image{
-    flex: 0 0 48%;
+    flex: 0 1 48%;
+    width: 0%;
+    transition: .5s ease;
 }
 
 .leftImg {
     margin-right: 4%;
+    width: 0%;
+}
+
+body {
+    background-color: rgb(117, 122, 128);
 }
