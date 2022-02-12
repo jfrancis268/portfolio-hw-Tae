@@ -1,1 +1,2 @@
-# portfolio-hw-Tae
+Jean-Tae Portfolio
+
