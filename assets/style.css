@@ -280,3 +280,17 @@ footer li {
 body {
     background-color: rgb(117, 122, 128);
 }
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(69, 13, 122);
+  }
